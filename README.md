@@ -4,6 +4,10 @@ Can track multiple faces. Predicts based off of someone's appearance, their age,
 
 ## Preview of the App
 
+https://github.com/iWolf22/face-tracking-software/assets/74108689/e63af714-af74-498c-93c7-cd3cbcb86ce5
+
+Visit the Vercel hosted app here: https://face-tracking-software-joshua-dierickse.vercel.app/
+
 ## Technologies Used
 
 1. HTML/CSS/TypeScript
