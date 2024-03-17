@@ -61,7 +61,7 @@ function App() {
 
   useEffect(() => {
     if (running) {
-        clockInterval = setInterval(faceMyDetect, 50);
+        clockInterval = setInterval(faceMyDetect, 10);
       }
       return () => clearInterval(clockInterval);
   }, [running]);
@@ -114,8 +114,12 @@ function App() {
       <div style={{display: 'flex', justifyContent: 'center'}}>
         <p style={fontStyling}>
           Built with TypeScript, ReactJS, MaterialUI, and TensorFlow!
-          <br/>Can track multiple faces. Predicts based off of someone's
-          <br/>appearance, their age, gender, or emotional state.</p>
+          <br/>Can track multiple faces. Predicts based on someone's
+          <br/>facial appearance, their age, gender, or emotional state.
+          <br/>Note you may need to zoom out in your browser for a
+          <br/>better user experience.
+          
+          </p>
       </div>
       <div style={{display: 'flex', justifyContent: 'center', marginTop: '15px'}}>
         <p style={fontStyling}>Made With ❤️ By Joshua Dierickse</p>
