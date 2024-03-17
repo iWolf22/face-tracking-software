@@ -61,7 +61,7 @@ function App() {
 
   useEffect(() => {
     if (running) {
-        clockInterval = setInterval(faceMyDetect, 10);
+        clockInterval = setInterval(faceMyDetect, 50);
       }
       return () => clearInterval(clockInterval);
   }, [running]);
