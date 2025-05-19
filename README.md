@@ -21,11 +21,3 @@ Visit the Vercel hosted app here: https://face-tracking-software-joshua-diericks
 2. Navigate to the ```my-app``` directory
 3. Run ```npm install``` (assuming you have already installed ```npm``` locally)
 4. Run ```npm start``` to launch app locally on ```http://localhost:3000/```
-
-## Contributors
-
-- Joshua Dierickse <jpcdieri@uwaterloo.ca>
-
-## License & Copyright
-
-© Joshua Dierickse, University of Waterloo
